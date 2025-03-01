@@ -1,6 +1,6 @@
 <head>
-    <title>CCTV Eshan Solution</title>
-    <link rel="icon" href="https://iili.io/2yawYRp.jpg">
+    <title>PT Eshan Solution</title>
+    <link rel="icon" href="{{ asset('images/logo/favicon.ico') }}">
 </head>
 <div>
     <nav class="bg-white shadow-md">
@@ -10,9 +10,9 @@
                 <div>
                     <a href="/">
                         <!-- <img src="{{ asset('cctv/resources/images/logo.jpg') }}" alt="Logo" class="h-10"> -->
-                        <a href="https://freeimage.host/"><img src="https://iili.io/2yawYRp.jpg" alt="Logo" class="h-12 rounded-lg" border="0"></a>
+                        <img src="{{ asset('images/logo/logo.jpg') }}" alt="Logo" class="h-20 w-full rounded-lg" border="0">
                     </a>
-                </div>
+                </div>  
 
                 <!-- Navigation Links (Desktop) -->
                 <div class="hidden md:flex space-x-6">

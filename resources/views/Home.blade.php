@@ -23,9 +23,12 @@
         @section('content')
         <div class="container mx-auto px-4">
             {{-- Hero Section --}}
-            <div class="relative w-full h-[400px] flex items-center justify-center bg-[url('{{asset('images/bg/main2.png')}}')] bg-cover bg-center rounded-lg">
-                <h1 class="text-4xl font-bold text-white bg-black/50 px-4 py-2 rounded-lg">Selamat Datang di Ehsan Solusi</h1>
+            <div class="relative w-full h-[400px] flex items-center justify-center rounded-lg text-white bg-no-repeat bg-center bg-cover"
+                style="background-image: url('/images/bg/main2.png');">
+                <h1 class="text-4xl font-bold bg-black/50 px-4 py-2 rounded-lg">Selamat Datang di Ehsan Solusi</h1>
             </div>
+
+
 
             {{-- Produk & Layanan --}}
             <section class="py-12 mt-10 text-justify">
@@ -73,18 +76,17 @@
             </div>
 
             <!-- Grid Kolom -->
-            <div class="bg-blue-600 py-12">
+            <div class="bg-blue-600 py-12 rounded-lg">
                 <div class="max-w-7xl mx-auto px-6 lg:px-8">
-                    <p class="text-white text-lg text-center mb-5 pb-5">Business Focus</p>
+                    <p class="text-white text-4xl text-center font-bold mb-5 pb-5">Business Focus</p>
                     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
                         <!-- Card 1 - Konsultasi -->
                         <div class="bg-white shadow-md p-6 rounded-lg text-center">
                             <center>
                                 <div class="text-orange-500 text-4xl mb-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-8">
-                                        <path fill-rule="evenodd" d="M4.848 2.771A49.144 49.144 0 0 1 12 2.25c2.43 0 4.817.178 7.152.52 1.978.292 3.348 2.024 3.348 3.97v6.02c0 1.946-1.37 3.678-3.348 3.97a48.901 48.901 0 0 1-3.476.383.39.39 0 0 0-.297.17l-2.755 4.133a.75.75 0 0 1-1.248 0l-2.755-4.133a.39.39 0 0 0-.297-.17 48.9 48.9 0 0 1-3.476-.384c-1.978-.29-3.348-2.024-3.348-3.97V6.741c0-1.946 1.37-3.68 3.348-3.97ZM6.75 8.25a.75.75 0 0 1 .75-.75h9a.75.75 0 0 1 0 1.5h-9a.75.75 0 0 1-.75-.75Zm.75 2.25a.75.75 0 0 0 0 1.5H12a.75.75 0 0 0 0-1.5H7.5Z" clip-rule="evenodd" />
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" />
                                     </svg>
-
                                 </div>
                             </center>
                             <h3 class="text-xl font-semibold">Electrical and Panel Builder</h3>
@@ -98,8 +100,8 @@
                         <div class="bg-white shadow-md p-6 rounded-lg text-center">
                             <center>
                                 <div class="text-orange-500 text-4xl mb-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-8">
-                                        <path fill-rule="evenodd" d="M7.5 6v.75H5.513c-.96 0-1.764.724-1.865 1.679l-1.263 12A1.875 1.875 0 0 0 4.25 22.5h15.5a1.875 1.875 0 0 0 1.865-2.071l-1.263-12a1.875 1.875 0 0 0-1.865-1.679H16.5V6a4.5 4.5 0 1 0-9 0ZM12 3a3 3 0 0 0-3 3v.75h6V6a3 3 0 0 0-3-3Zm-3 8.25a3 3 0 1 0 6 0v-.75a.75.75 0 0 1 1.5 0v.75a4.5 4.5 0 1 1-9 0v-.75a.75.75 0 0 1 1.5 0v.75Z" clip-rule="evenodd" />
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 3v1.5M4.5 8.25H3m18 0h-1.5M4.5 12H3m18 0h-1.5m-15 3.75H3m18 0h-1.5M8.25 19.5V21M12 3v1.5m0 15V21m3.75-18v1.5m0 15V21m-9-1.5h10.5a2.25 2.25 0 0 0 2.25-2.25V6.75a2.25 2.25 0 0 0-2.25-2.25H6.75A2.25 2.25 0 0 0 4.5 6.75v10.5a2.25 2.25 0 0 0 2.25 2.25Zm.75-12h9v9h-9v-9Z" />
                                     </svg>
                                 </div>
                             </center>
@@ -114,8 +116,8 @@
                         <div class="bg-white shadow-md p-6 rounded-lg text-center">
                             <center>
                                 <div class="text-orange-500 text-4xl mb-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-8">
-                                        <path fill-rule="evenodd" d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clip-rule="evenodd" />
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z" />
                                     </svg>
                                 </div>
                             </center>
@@ -130,8 +132,8 @@
                         <div class="bg-white shadow-md p-6 rounded-lg text-center">
                             <center>
                                 <div class="text-orange-500 text-4xl mb-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-8">
-                                        <path fill-rule="evenodd" d="M18.685 19.097A9.723 9.723 0 0 0 21.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 0 0 3.065 7.097A9.716 9.716 0 0 0 12 21.75a9.716 9.716 0 0 0 6.685-2.653Zm-12.54-1.285A7.486 7.486 0 0 1 12 15a7.486 7.486 0 0 1 5.855 2.812A8.224 8.224 0 0 1 12 20.25a8.224 8.224 0 0 1-5.855-2.438ZM15.75 9a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" clip-rule="evenodd" />
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z" />
                                     </svg>
                                 </div>
                             </center>
@@ -161,7 +163,6 @@
                 <!-- Navigation Buttons -->
                 <center>
                     <button id="prev" class="carousel-btn left-0">&#10094; Previous</button>
-                    |
                     <button id="next" class="carousel-btn right-0"> Next &#10095;</button>
                 </center>
             </div>
