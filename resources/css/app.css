@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-main {
-    background-image: url("images/bg/main2.png");
-    background-size: cover;
-    background-position: center;
-}
 
 @keyframes fadeInUp {
     from {

@@ -54,5 +54,26 @@
             </div>
         </div>
     </div>
+    
+    
+    <!-- Vendor Perusahaan -->
+    <div class="mt-16 flex justify-center">
+        <div class="max-w-lg w-full">
+            <h2 class="text-3xl font-semibold text-center text-gray-800 mb-6">Vendor Terdaftar Kami</h2>
+
+            <li>PT. EXCELITAS TECHNOLOGIES, BIP Lot 207, Jalan Beringin Batamindo Industrial Park Muka Kuning Batam</li>
+            <li>PT. Schneider Electric Manufacturing Batam, BIP Blok 4, Mukakuning Batam</li>
+            <li>PT. MTSC BATAM, Buana Central Park , Lexinton 137 Batam, Indonesia</li>
+            <li>PT. RUBYCON BATAM, BIP Blok 220-226, Mukakuning Batam</li>
+            <li>Yayasan Islam Al Kahfi Groups, Ir Sugandhi no 1, Batu Aji Batam</li>
+            <li>Yayasan Darussalam Groups, PERUM. TAMAN JAYA ASRI, Batu Aji Batam</li>
+        </div>
+    </div>
+    <div class="mt-16 gap-5 flex justify-center">
+        <img src="{{ asset('images/vendor/excelitas.png') }}" alt="PT Excelitas" class="rounded-lg h-24 w-36">
+        <img src="{{ asset('images/vendor/schneider.png') }}" alt="PT Schneider" class="rounded-lg h-24 w-36">
+        <img src="{{ asset('images/vendor/mtsc.png') }}" alt="MTSC Solution" class="rounded-lg h-24 w-36">
+        <img src="{{ asset('images/vendor/rubycon.png') }}" alt="PT Rubycon" class="rounded-lg h-24 w-36">
+    </div>
 </div>
 @endsection
